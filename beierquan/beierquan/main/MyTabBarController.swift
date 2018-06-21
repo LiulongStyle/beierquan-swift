@@ -19,7 +19,7 @@ class MyTabBarController: UITabBarController {
     
     private func setText(){
     UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.lightGray], for: UIControlState.normal)
-    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.lightGray], for: UIControlState.selected)
+    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedStringKey.foregroundColor: UIColor.red], for: UIControlState.selected)
          // 设置图片选中时颜色必须设置（系统默认选中蓝色）
 //        UITabBar.appearance().tintColor = UIColor.red
     }

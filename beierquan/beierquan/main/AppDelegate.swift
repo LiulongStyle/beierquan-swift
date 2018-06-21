@@ -19,8 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
         
-        let tabbarVC = MyTabBarController()
-        window?.rootViewController = tabbarVC
+        if (true) {
+            let _leadVC = LeadViewController()
+            window?.rootViewController = _leadVC
+        }else{
+            let tabbarVC = MyTabBarController()
+            window?.rootViewController = tabbarVC
+        }
+    
         window?.makeKeyAndVisible()
         
         return true

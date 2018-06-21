@@ -25,6 +25,12 @@
 		A4301CA320DA68F3005E0B08 /* LLmineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301CA120DA68F3005E0B08 /* LLmineViewController.swift */; };
 		A4301CA420DA68F3005E0B08 /* LLmineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4301CA220DA68F3005E0B08 /* LLmineViewController.xib */; };
 		A4301CA620DB4E60005E0B08 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301CA520DB4E60005E0B08 /* Const.swift */; };
+		A483A92320DB7E6D00985120 /* PageControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = A483A91B20DB7E6C00985120 /* PageControlView.m */; };
+		A483A92420DB7E6D00985120 /* PageControlView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A483A91C20DB7E6C00985120 /* PageControlView.xib */; };
+		A483A92520DB7E6D00985120 /* PageControlCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A483A91D20DB7E6C00985120 /* PageControlCollectionViewCell.xib */; };
+		A483A92620DB7E6D00985120 /* LeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A483A92020DB7E6D00985120 /* LeadViewController.m */; };
+		A483A92720DB7E6D00985120 /* PageControlCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A483A92220DB7E6D00985120 /* PageControlCollectionViewCell.m */; };
+		A483A92920DB862800985120 /* dsawdsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483A92820DB862800985120 /* dsawdsa.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +75,16 @@
 		A4301CA120DA68F3005E0B08 /* LLmineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLmineViewController.swift; sourceTree = "<group>"; };
 		A4301CA220DA68F3005E0B08 /* LLmineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLmineViewController.xib; sourceTree = "<group>"; };
 		A4301CA520DB4E60005E0B08 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		A483A8F720DB7CE000985120 /* beierquan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "beierquan-Bridging-Header.h"; sourceTree = "<group>"; };
+		A483A91B20DB7E6C00985120 /* PageControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlView.m; sourceTree = "<group>"; };
+		A483A91C20DB7E6C00985120 /* PageControlView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControlView.xib; sourceTree = "<group>"; };
+		A483A91D20DB7E6C00985120 /* PageControlCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControlCollectionViewCell.xib; sourceTree = "<group>"; };
+		A483A91E20DB7E6C00985120 /* PageControlCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlCollectionViewCell.h; sourceTree = "<group>"; };
+		A483A91F20DB7E6C00985120 /* LeadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadViewController.h; sourceTree = "<group>"; };
+		A483A92020DB7E6D00985120 /* LeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadViewController.m; sourceTree = "<group>"; };
+		A483A92120DB7E6D00985120 /* PageControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlView.h; sourceTree = "<group>"; };
+		A483A92220DB7E6D00985120 /* PageControlCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlCollectionViewCell.m; sourceTree = "<group>"; };
+		A483A92820DB862800985120 /* dsawdsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dsawdsa.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,11 +169,14 @@
 		A4301C8C20DA656A005E0B08 /* main */ = {
 			isa = PBXGroup;
 			children = (
+				A483A91A20DB7E2800985120 /* leadView */,
 				A4301C4D20D9F9EF005E0B08 /* AppDelegate.swift */,
+				A483A92820DB862800985120 /* dsawdsa.swift */,
 				A4301C8820DA5B6B005E0B08 /* MyTabBarController.swift */,
 				A4301C8A20DA5B8B005E0B08 /* MyNavigationController.swift */,
 				A4301C9120DA668A005E0B08 /* LLbaseViewController.swift */,
 				A4301CA520DB4E60005E0B08 /* Const.swift */,
+				A483A8F720DB7CE000985120 /* beierquan-Bridging-Header.h */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -196,6 +215,21 @@
 				A4301CA220DA68F3005E0B08 /* LLmineViewController.xib */,
 			);
 			path = mine;
+			sourceTree = "<group>";
+		};
+		A483A91A20DB7E2800985120 /* leadView */ = {
+			isa = PBXGroup;
+			children = (
+				A483A91F20DB7E6C00985120 /* LeadViewController.h */,
+				A483A92020DB7E6D00985120 /* LeadViewController.m */,
+				A483A91E20DB7E6C00985120 /* PageControlCollectionViewCell.h */,
+				A483A92220DB7E6D00985120 /* PageControlCollectionViewCell.m */,
+				A483A91D20DB7E6C00985120 /* PageControlCollectionViewCell.xib */,
+				A483A92120DB7E6D00985120 /* PageControlView.h */,
+				A483A91B20DB7E6C00985120 /* PageControlView.m */,
+				A483A91C20DB7E6C00985120 /* PageControlView.xib */,
+			);
+			path = leadView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +300,7 @@
 				TargetAttributes = {
 					A4301C4920D9F9EF005E0B08 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 0940;
 					};
 					A4301C5D20D9F9F1005E0B08 = {
 						CreatedOnToolsVersion = 9.4;
@@ -307,8 +342,10 @@
 				A4301C9820DA68B4005E0B08 /* LLhomeViewContrller.xib in Resources */,
 				A4301C9C20DA68D5005E0B08 /* LLselectViewController.xib in Resources */,
 				A4301CA420DA68F3005E0B08 /* LLmineViewController.xib in Resources */,
+				A483A92420DB7E6D00985120 /* PageControlView.xib in Resources */,
 				A4301C5520D9F9F1005E0B08 /* Assets.xcassets in Resources */,
 				A4301C5320D9F9EF005E0B08 /* Main.storyboard in Resources */,
+				A483A92520DB7E6D00985120 /* PageControlCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +377,12 @@
 				A4301C9720DA68B4005E0B08 /* LLhomeViewContrller.swift in Sources */,
 				A4301CA320DA68F3005E0B08 /* LLmineViewController.swift in Sources */,
 				A4301C9B20DA68D5005E0B08 /* LLselectViewController.swift in Sources */,
+				A483A92720DB7E6D00985120 /* PageControlCollectionViewCell.m in Sources */,
+				A483A92620DB7E6D00985120 /* LeadViewController.m in Sources */,
 				A4301C9220DA668A005E0B08 /* LLbaseViewController.swift in Sources */,
 				A4301CA620DB4E60005E0B08 /* Const.swift in Sources */,
+				A483A92320DB7E6D00985120 /* PageControlView.m in Sources */,
+				A483A92920DB862800985120 /* dsawdsa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,7 +556,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MGCEQGB4XV;
 				INFOPLIST_FILE = beierquan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -524,8 +567,11 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = liulong.beierquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "beierquan/main/beierquan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
@@ -534,7 +580,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = MGCEQGB4XV;
 				INFOPLIST_FILE = beierquan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -543,8 +591,10 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = liulong.beierquan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "beierquan/main/beierquan-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
