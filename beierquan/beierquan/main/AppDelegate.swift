@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = UIColor.white
         
-        if (true) {
+        if (false) {
             let _leadVC = LeadViewController()
             window?.rootViewController = _leadVC
         }else{

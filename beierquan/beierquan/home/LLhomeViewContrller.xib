@@ -13,6 +13,24 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LLhomeViewContrller" customModule="beierquan" customModuleProvider="target">
             <connections>
+                <outlet property="adressButton" destination="8fE-Hw-N0l" id="tS1-vd-jU1"/>
+                <outlet property="adresslabel" destination="D3t-Ya-u2G" id="Kr8-Os-57g"/>
+                <outlet property="banerView" destination="7iM-hu-CAc" id="nt6-z8-qOa"/>
+                <outlet property="btn1" destination="Axg-tU-abl" id="7Lf-40-BMb"/>
+                <outlet property="btn2" destination="gyA-hn-uvP" id="Oa8-VX-m2m"/>
+                <outlet property="btn3" destination="0Gj-5f-YHh" id="LNh-At-mjw"/>
+                <outlet property="heightOfScro" destination="vBb-4f-0LW" id="DLQ-4t-YY2"/>
+                <outlet property="homeTF" destination="hnN-vX-tSD" id="VTN-Xk-Fmm"/>
+                <outlet property="image1" destination="n5Y-EE-ozk" id="2lu-TJ-SFJ"/>
+                <outlet property="image2" destination="aaP-IU-BeO" id="F1L-xZ-XXC"/>
+                <outlet property="image3" destination="zWj-g5-TeU" id="Yu7-o9-ktQ"/>
+                <outlet property="mainScrollView" destination="6Y8-1A-Wuu" id="SqR-3F-KCv"/>
+                <outlet property="nullView" destination="nyW-8w-nnE" id="hM9-qg-y1e"/>
+                <outlet property="tableView" destination="onC-Fl-JDh" id="iFP-kw-g1Q"/>
+                <outlet property="todayView" destination="BeB-VU-jr0" id="Znm-KO-F0M"/>
+                <outlet property="topH" destination="lI3-cX-2tr" id="hAL-be-sew"/>
+                <outlet property="topView" destination="oBO-RM-9Ij" id="RD7-4X-DuB"/>
+                <outlet property="toptf" destination="uOf-n6-PXR" id="kke-wX-VuT"/>
                 <outlet property="view" destination="pvb-CN-dbb" id="fGu-Pn-dNi"/>
             </connections>
         </placeholder>

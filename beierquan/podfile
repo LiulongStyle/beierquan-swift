@@ -1,0 +1,12 @@
+# platform :ios, '9.0'
+
+target 'beierquan' do
+pod 'Alamofire'
+pod 'IBAnimatable'
+pod 'Kanna'
+pod 'Kingfisher'
+pod 'SnapKit'
+pod 'SwiftyJSON'
+pod 'ReactiveCocoa'
+use_frameworks!
+end

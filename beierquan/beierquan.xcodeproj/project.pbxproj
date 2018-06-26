@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09AD8C503633CEEA20A6FC7E /* Pods_beierquan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FD4CE721D1FE4ECECD88BC /* Pods_beierquan.framework */; };
 		A4301C4E20D9F9EF005E0B08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4301C4D20D9F9EF005E0B08 /* AppDelegate.swift */; };
 		A4301C5320D9F9EF005E0B08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4301C5120D9F9EF005E0B08 /* Main.storyboard */; };
 		A4301C5520D9F9F1005E0B08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4301C5420D9F9F1005E0B08 /* Assets.xcassets */; };
@@ -30,7 +31,13 @@
 		A483A92520DB7E6D00985120 /* PageControlCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A483A91D20DB7E6C00985120 /* PageControlCollectionViewCell.xib */; };
 		A483A92620DB7E6D00985120 /* LeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A483A92020DB7E6D00985120 /* LeadViewController.m */; };
 		A483A92720DB7E6D00985120 /* PageControlCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A483A92220DB7E6D00985120 /* PageControlCollectionViewCell.m */; };
-		A483A92920DB862800985120 /* dsawdsa.swift in Sources */ = {isa = PBXBuildFile; fileRef = A483A92820DB862800985120 /* dsawdsa.swift */; };
+		A4D0279D20E0D7DE00643F6B /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D0279C20E0D7DE00643F6B /* UIView+Extension.swift */; };
+		A4D0279F20E0D7E800643F6B /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D0279E20E0D7E800643F6B /* UIImage+Extension.swift */; };
+		A4D027A320E0D7FE00643F6B /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D027A220E0D7FE00643F6B /* UIColor+Extension.swift */; };
+		A4D027A720E0D8E600643F6B /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D027A620E0D8E600643F6B /* UIButton+Extension.swift */; };
+		A4D027B120E21FF800643F6B /* LLhomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D027AF20E21FF800643F6B /* LLhomeCell.swift */; };
+		A4D027B220E21FF800643F6B /* LLhomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4D027B020E21FF800643F6B /* LLhomeCell.xib */; };
+		A4D027B620E23B5200643F6B /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D027B520E23B5200643F6B /* CALayer+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2108068D278C302A12171FFF /* Pods-beierquan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beierquan.release.xcconfig"; path = "Pods/Target Support Files/Pods-beierquan/Pods-beierquan.release.xcconfig"; sourceTree = "<group>"; };
+		4F267E842A4C3CA31186C330 /* Pods-beierquan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beierquan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-beierquan/Pods-beierquan.debug.xcconfig"; sourceTree = "<group>"; };
 		A4301C4A20D9F9EF005E0B08 /* beierquan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beierquan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4301C4D20D9F9EF005E0B08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4301C5220D9F9EF005E0B08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -84,7 +93,14 @@
 		A483A92020DB7E6D00985120 /* LeadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadViewController.m; sourceTree = "<group>"; };
 		A483A92120DB7E6D00985120 /* PageControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlView.h; sourceTree = "<group>"; };
 		A483A92220DB7E6D00985120 /* PageControlCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlCollectionViewCell.m; sourceTree = "<group>"; };
-		A483A92820DB862800985120 /* dsawdsa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dsawdsa.swift; sourceTree = "<group>"; };
+		A4D0279C20E0D7DE00643F6B /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A4D0279E20E0D7E800643F6B /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		A4D027A220E0D7FE00643F6B /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A4D027A620E0D8E600643F6B /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		A4D027AF20E21FF800643F6B /* LLhomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLhomeCell.swift; sourceTree = "<group>"; };
+		A4D027B020E21FF800643F6B /* LLhomeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LLhomeCell.xib; sourceTree = "<group>"; };
+		A4D027B520E23B5200643F6B /* CALayer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		E5FD4CE721D1FE4ECECD88BC /* Pods_beierquan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beierquan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09AD8C503633CEEA20A6FC7E /* Pods_beierquan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +129,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48E0FE6FB62F3835E15E4F1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F267E842A4C3CA31186C330 /* Pods-beierquan.debug.xcconfig */,
+				2108068D278C302A12171FFF /* Pods-beierquan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		512C184355777849F771DE95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5FD4CE721D1FE4ECECD88BC /* Pods_beierquan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A4301C4120D9F9EF005E0B08 = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +153,8 @@
 				A4301C6120D9F9F1005E0B08 /* beierquanTests */,
 				A4301C6C20D9F9F1005E0B08 /* beierquanUITests */,
 				A4301C4B20D9F9EF005E0B08 /* Products */,
+				48E0FE6FB62F3835E15E4F1A /* Pods */,
+				512C184355777849F771DE95 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +176,7 @@
 				A4301C8E20DA660D005E0B08 /* select */,
 				A4301C8F20DA6627005E0B08 /* massege */,
 				A4301C9020DA6639005E0B08 /* mine */,
+				A4D0279B20E0D7AF00643F6B /* category */,
 				A4301C5120D9F9EF005E0B08 /* Main.storyboard */,
 				A4301C5420D9F9F1005E0B08 /* Assets.xcassets */,
 				A4301C5620D9F9F1005E0B08 /* LaunchScreen.storyboard */,
@@ -171,7 +208,6 @@
 			children = (
 				A483A91A20DB7E2800985120 /* leadView */,
 				A4301C4D20D9F9EF005E0B08 /* AppDelegate.swift */,
-				A483A92820DB862800985120 /* dsawdsa.swift */,
 				A4301C8820DA5B6B005E0B08 /* MyTabBarController.swift */,
 				A4301C8A20DA5B8B005E0B08 /* MyNavigationController.swift */,
 				A4301C9120DA668A005E0B08 /* LLbaseViewController.swift */,
@@ -186,6 +222,8 @@
 			children = (
 				A4301C9520DA68B4005E0B08 /* LLhomeViewContrller.swift */,
 				A4301C9620DA68B4005E0B08 /* LLhomeViewContrller.xib */,
+				A4D027AF20E21FF800643F6B /* LLhomeCell.swift */,
+				A4D027B020E21FF800643F6B /* LLhomeCell.xib */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -232,6 +270,18 @@
 			path = leadView;
 			sourceTree = "<group>";
 		};
+		A4D0279B20E0D7AF00643F6B /* category */ = {
+			isa = PBXGroup;
+			children = (
+				A4D0279E20E0D7E800643F6B /* UIImage+Extension.swift */,
+				A4D0279C20E0D7DE00643F6B /* UIView+Extension.swift */,
+				A4D027A220E0D7FE00643F6B /* UIColor+Extension.swift */,
+				A4D027A620E0D8E600643F6B /* UIButton+Extension.swift */,
+				A4D027B520E23B5200643F6B /* CALayer+Extension.swift */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -239,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4301C7220D9F9F1005E0B08 /* Build configuration list for PBXNativeTarget "beierquan" */;
 			buildPhases = (
+				910FE82531C76E4EC9B9B509 /* [CP] Check Pods Manifest.lock */,
 				A4301C4620D9F9EF005E0B08 /* Sources */,
 				A4301C4720D9F9EF005E0B08 /* Frameworks */,
 				A4301C4820D9F9EF005E0B08 /* Resources */,
+				4565A5973077D44B84992A6B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -339,6 +391,7 @@
 			files = (
 				A4301CA020DA68E4005E0B08 /* LLmessegeViewController.xib in Resources */,
 				A4301C5820D9F9F1005E0B08 /* LaunchScreen.storyboard in Resources */,
+				A4D027B220E21FF800643F6B /* LLhomeCell.xib in Resources */,
 				A4301C9820DA68B4005E0B08 /* LLhomeViewContrller.xib in Resources */,
 				A4301C9C20DA68D5005E0B08 /* LLselectViewController.xib in Resources */,
 				A4301CA420DA68F3005E0B08 /* LLmineViewController.xib in Resources */,
@@ -365,16 +418,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4565A5973077D44B84992A6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-beierquan/Pods-beierquan-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-beierquan/Pods-beierquan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		910FE82531C76E4EC9B9B509 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beierquan-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4301C4620D9F9EF005E0B08 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A4301C8B20DA5B8B005E0B08 /* MyNavigationController.swift in Sources */,
+				A4D0279F20E0D7E800643F6B /* UIImage+Extension.swift in Sources */,
+				A4D0279D20E0D7DE00643F6B /* UIView+Extension.swift in Sources */,
+				A4D027A720E0D8E600643F6B /* UIButton+Extension.swift in Sources */,
+				A4D027B120E21FF800643F6B /* LLhomeCell.swift in Sources */,
 				A4301C9F20DA68E4005E0B08 /* LLmessegeViewController.swift in Sources */,
+				A4D027B620E23B5200643F6B /* CALayer+Extension.swift in Sources */,
 				A4301C8920DA5B6B005E0B08 /* MyTabBarController.swift in Sources */,
 				A4301C4E20D9F9EF005E0B08 /* AppDelegate.swift in Sources */,
 				A4301C9720DA68B4005E0B08 /* LLhomeViewContrller.swift in Sources */,
+				A4D027A320E0D7FE00643F6B /* UIColor+Extension.swift in Sources */,
 				A4301CA320DA68F3005E0B08 /* LLmineViewController.swift in Sources */,
 				A4301C9B20DA68D5005E0B08 /* LLselectViewController.swift in Sources */,
 				A483A92720DB7E6D00985120 /* PageControlCollectionViewCell.m in Sources */,
@@ -382,7 +496,6 @@
 				A4301C9220DA668A005E0B08 /* LLbaseViewController.swift in Sources */,
 				A4301CA620DB4E60005E0B08 /* Const.swift in Sources */,
 				A483A92320DB7E6D00985120 /* PageControlView.m in Sources */,
-				A483A92920DB862800985120 /* dsawdsa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +666,7 @@
 		};
 		A4301C7320D9F9F1005E0B08 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F267E842A4C3CA31186C330 /* Pods-beierquan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
@@ -577,6 +691,7 @@
 		};
 		A4301C7420D9F9F1005E0B08 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2108068D278C302A12171FFF /* Pods-beierquan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
